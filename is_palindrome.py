@@ -9,6 +9,6 @@ def is_palindrome(string):
     # and then call the function again with the string excluding the first and last letters
     return (string[0] == string[-1] and is_palindrome(string[1:-1]))
 
-# Test cases
+# Example usage
 print(is_palindrome("madam"))  # True
 print(is_palindrome("apple"))  # False
